@@ -1,16 +1,19 @@
 {
   "entry": "src/index.js",
-  "env": {
-    "development": {
-      "extraBabelPlugins": [
-        "dva-hmr",
-        "transform-runtime"
-      ]
+    "env": {
+        "development": {
+            "extraBabelPlugins": [
+                "dva-hmr",
+                "transform-runtime"
+            ]
+        },
+        "production": {
+            "extraBabelPlugins": [
+                "transform-runtime"
+            ]
+        }
     },
-    "production": {
-      "extraBabelPlugins": [
-        "transform-runtime"
-      ]
+    "theme": {
+        "@primary-color": "#1DA57A"
     }
-  }
 }

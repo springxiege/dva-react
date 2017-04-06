@@ -10,6 +10,9 @@ class About extends React.Component {
       date: '',
     };
   }
+  componentDidMount(){
+      document.title = 'About Page!'
+  }
   handleChange(date) {
     message.info('您选择的日期是: ' + date.toString());
     this.setState({ date });

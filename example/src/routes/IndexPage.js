@@ -15,6 +15,7 @@ class IndexPage extends Component{
             <div className={styles.normal}>
               <h1 className={styles.title}>Yay! Welcome to dva!</h1>
               <div className={styles.welcome} />
+              <Link to='/Index'>Home Page</Link>
               <Link to='/About'>About</Link>
               <ul className={styles.list}>
                 <li>To get started, edit <code>src/index.js</code> and save to reload.</li>

@@ -13,7 +13,6 @@
             ]
         }
     },
-    "theme": {
-        "@primary-color": "#1DA57A"
-    }
+    "theme": "./theme.config.js",
+    "extraBabelPlugins": []
 }
